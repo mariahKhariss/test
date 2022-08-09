@@ -1,13 +1,444 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#HomePage{
+    background: #FAFAFA;
+    width: 100%;
+    height: 100%;
+}
+#downBody{
+    margin-top: 5rem;
+}
+#navbar{
+    height: 6vh;
+    position: fixed ;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#topImages{
+    height: 13vh;
+    width: 30%;
+    background: white;
+    /* border: 1px solid black; */
+    margin-left: 29%;
+    /* margin-top: 10px; */
+    box-shadow: 0px 0px 0px 0.5px rgba(0, 0, 0, 0.288);
+    border-radius: 5px;
+}
+#profilePicture{
+    height: 6vh;
+    width: 30%;
+    background: white;
+    /* border: 1px solid black; */
+    margin-left: 29%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 0px 0.5px rgba(0, 0, 0, 0.288);
+    border-radius: 2px;  
+}
+#instagram{
+    margin-left: 23%;
+    height: 5vh;
+}
+#pictureFrame{
+    height: 60vh;
+    width: 30%;
+    background: white;
+    /* border: 1px solid black; */
+    margin-left: 29%;
+    box-shadow: 0px 0px 0px 0.5px rgba(0, 0, 0, 0.288);
+    border-radius: 5px; 
+}
+#likeButtons{
+    height: 30vh;
+    width: 30%;
+    background: white;
+    /* border: 1px solid black; */
+    margin-left: 29%;
+    box-shadow: 0px 0px 0px 0.5px rgba(0, 0, 0, 0.288);   
+}
+#dot{
+    margin-left: 18rem;
+}
+#realImage{
+    margin-top: 5px;
+    margin-left: 1.9px;
+}
+#icons{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+#inp{
+    margin-left: -80% !important;
+    width: 33vh;
+    height: 4vh;
+    background-color: #bbb8b83d;
+}
+#numberPop{
+    width: 2.8vh;
+    height: 2.8vh;
+    border: 1px solid red;
+    background: red;
+    color: white;
+    border-radius: 1000px;
+    margin-left: -18px;
+    margin-top: -10px;
+}
+#redDot{
+    width: 0.6vh;
+    height: 0.6vh;
+    /* border: 1px solid red; */
+    background: rgba(255, 0, 0, 0.596);
+    border-radius: 1000px;
+    margin-left: -25px;
+    margin-top: 28px;
+}
+#download{
+    height: 60vh;
+    width: 100%;
+    
+}
+#likesClicks{
+    margin-left: 0.4rem;
+}
+#bookmark{
+    margin-left: 21rem;
+}
+#numberOfLikes{
+    width: 20vh;
+    height: 3vh;
+    /* border: 1px solid black; */
+    margin-left: 0.4rem;
+    margin-top: 6px;
+}
+#caption{
+    width: 60vh;
+    height: 6vh;
+    /* border: 1px solid black;    */
+    margin-top: 6px;
+    margin-left: 0.4rem;
+}
+#viewsComment{
+    width: 60vh;
+    height: 3vh;
+    /* border: 1px solid black; */
+    margin-top: 9px; 
+    margin-left: 0.4rem;
+}
+#cap{
+    font-family: sans-serif;
+}
+#firstComment{
+    width: 50vh;
+    height: 3vh;
+    /* border: 1px solid black; */
+    margin-top: 9px; 
+    margin-left: 0.4rem; 
+}
+#secondComment{
+    width: 50vh;
+    height: 3vh;
+    /* border: 1px solid black; */
+    margin-top: 1px; 
+    margin-left: 0.4rem;   
+}
+#days{
+    width: 20vh;
+    height: 3vh;
+    /* border: 1px solid black; */
+    margin-left: 0.4rem;
+    margin-top: 10px;
+}
+#comments{
+    height: 5vh;
+    width: 100%;
+    background: white;
+    /* border: 1px solid black; */
+    margin-left: 0%;
+    /* margin-top: 20px; */
+    box-shadow: 0px 0px 0px 0.5px rgba(0, 0, 0, 0.288);
+    /* border-radius: 2px;   */
+}
+#downBodyA{
+    margin-top: 3.5rem;
+}
+#heading{
+    height: 8vh;
+    width: 100%;
+    background: white;
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 0px 0.5px rgba(0, 0, 0, 0.288);
+    border-radius: 5px;
+    position: fixed;
+}
+#insta{
+    margin-left: 20%;
+    margin-top: 8px;
+    height: 4.5vh;
+}
+#input{
+    height: 5vh;
+    width: 33vh;
+    margin-left: 14rem;
+    margin-top: 15px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #bbb8b83d;
+}
+#iconss{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: -2.5rem;
+    margin-left: 57rem;
+    
+}
+#side{
+    height: 48vh;
+    width: 25%;
+    background: transparent;
+    /* border: 1px solid black; */
+    margin-left: 28rem;
+    margin-top: -830px;
+    /* box-shadow: 0px 0px 0px 0.5px rgba(0, 0, 0, 0.288); */
+    /* border-radius: 2px;   */
+    position: fixed;
+}
+#headings{
+    height: 8vh;
+    width: 100%;
+    background: white;
+    margin-top: -80px;
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 0px 0.5px rgba(0, 0, 0, 0.288);
+    border-radius: 5px;
+    position: fixed;
+}
+#first{
+    height: 9vh;
+    width: 50vh;
+    /* border: 1px solid black; */
+}
+#name1{
+    height: 3vh;
+    width: 10vh;
+    /* border: 1px solid black; */
+    margin-left: 80px;
+    margin-top: -40px;  
+}
+#belowName1{
+    height: 2.5vh;
+    width: 25vh;
+    /* border: 1px solid black; */
+    margin-left: 70px;
+}
+#belowName{
+    height: 2.5vh;
+    width: 25vh;
+    /* border: 1px solid black; */
+    margin-left: 80px;
+}
+#blue{
+    height: 3vh;
+    width: 10vh;
+    /* border: 1px solid black; */
+    margin-left: 250px;
+    margin-top: -27px; 
+}
+#suggestDiv{
+    height: 4vh;
+    width: 50vh;
+    /* border: 1px solid black;  */
+}
+#seeAllDiv{
+    height: 3vh;
+    width: 10vh;
+    /* border: 1px solid black; */
+    margin-left: 250px;
+    margin-top: -34px;  
+}
+#second{
+    height: 7vh;
+    width: 50vh;
+    /* border: 1px solid black;  */
+}
+#name2{
+    height: 3vh;
+    width: 25vh;
+    /* border: 1px solid black; */
+    margin-left: 70px;
+    margin-top: -43px;  
+}
+#thrid{
+    height: 6.2vh;
+    width: 50vh;
+    /* border: 1px solid black; */
+    margin-top: 5px;
+}
+#sideImg{
+    height: 6vh;
+    width: 8vh;
+    /* border: 1px solid black; */
+    margin-left: 5px;
+    margin-top: -1px; 
+}
+#sideImgg{
+    height: 8vh;
+    width: 10vh;
+    /* border: 1px solid black; */
+    margin-left: 15px;
+    margin-top: 7px; 
+}
+#spic{
+    margin-top: 15px;
+}
+#realProfile{
+    height: 40vh;
+    width: 60%;
+    border: 1px solid white;
+    margin-left: 270px;  
+}
+#profilePictures{
+    height: 20vh; 
+    width: 20%;
+    /* border: 1px solid black; */
+    margin-top: 90px;
+    margin-left: 160px;
+}
+#profileNameArea{
+    height: 7vh; 
+    width: 40%;
+    border: 1px solid black;
+    margin-top: -140px;
+    margin-left: 350px;
+}
+#btn{
+    height: 3vh;
+    width: 15vh;
+    /* border: 1px solid black; */
+    margin-left: 170px;
+    margin-top: -40px;   
+}
+#settings{
+    height: 3vh;
+    width: 5vh;
+    border: 1px solid black;
+    margin-left: 270px;
+    margin-top: -15px;  
+}
+#followers{
+    height: 5vh; 
+    width: 40%;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 350px;
+    display: flex; 
+    gap: 0.1rem;
+}
+#postNumbers{
+    height: 3vh;
+    width: 16vh;
+    /* border: 1px solid black; */
+    margin-left: 1px;
+    margin-top: 5px; 
+}
+#postNumberss{
+    height: 3vh;
+    width: 16vh;
+    /* border: 1px solid black; */
+    margin-left: -20px;
+    margin-top: 5px; 
+}
+#postNumbersss{
+    height: 3vh;
+    width: 16vh;
+    /* border: 1px solid black; */
+    margin-left: 13px;
+    margin-top: 5px; 
+}
+
+#postName{
+    height: 3vh;
+    width: 16vh;
+    border: 1px solid black;
+    margin-left: 350px;
+    margin-top: 7px;  
+}
+#belowRealProfile{
+    height: 1px;
+    width: 60%;
+    border-bottom: 1px solid black;
+    margin-left: 270px;
+    margin-top: 6px;  
+}
+#taggedArea{
+    height: 5vh; 
+    width: 35%;
+    /* border: 1px solid black; */
+    margin-left: 610px;
+    display: flex; 
+    gap: 0.1rem; 
+}
+#belowPost{
+    height: 50vh;
+    width: 60%;
+    border: 1px solid black;
+    margin-left: 270px;
+    display: flex;
+    gap: 1rem; 
+}
+#mainPost{
+    height: 50vh;
+    width: 32%;
+    border: 1px solid black;  
+}
+#forward{
+    height: 4vh;   
+    width: 40vh;
+    margin-left: -130px;
+    color: white;
+}
+#forwardBox{
+    width: 10%;
+    height: 7vh;
+    /* border: 1px solid black; */
+    margin-top: -60px;
+    margin-left: 400px;
+}
+#userNames{
+    width: 100%;
+    height: 2vh;
+    /* border: 1px solid black; */
+    display: flex;
+}
+#userName{
+    width: 15%;
+    height: 2vh;
+    /* border: 1px solid black; */
+    margin-left: 6px;
+    margin-top: -4px;
+}
+/* pageNotFound styling */
+#backgroundBody{
+    width: 70%;
+    height: 60vh;
+    /* border: 1px solid black; */
+    margin-left: 200px;
+    margin-top: 80px;
+    border-radius: 10px;
+    background-color: #83A7CB;
+    font-size: 200%;
+}
+#textWrite{
+    width: 50%;
+    height: 20vh;
+    border: 1px solid #83A7CB;
+    margin: 100px;
+
+}
+#errorContainer{
+    width: 30%;
+    height: 50vh;
+    /* border: 1px solid black; */
+    margin-left: 650px;
+    margin-top: -180px;
+}
+#errorImg{
+    height: 50vh;
 }
